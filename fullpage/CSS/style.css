@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+section {
+    margin: 80px 0px;
+}
+
+.topBarMain {
+    background: #f5f5f5;
+}
+
+div#topbarWrapper {
+    overflow: hidden;
+}
+
+.container {
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+.phone {
+    width: 220px;
+    float: left;
+    padding: 15px 10px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.phone i {
+    color: #ff5200
+}
+
+.email {
+    width: 660px;
+    float: left;
+    padding: 15px 10px;
+}
+
+.email i {
+    color: #ff5200
+}
+
+.social {
+    width: 215px;
+    float: left;
+}
+
+.social a i {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: #232323;
+}
+
+.social a i:hover {
+    color: #ff5200 ;
+}
+
+.primaryWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo img {
+    width: 160px;
+    float: left;
+}
+
+.menu {
+    width: 900px;
+    float: left;
+}
+
+ul.mainMenuItem {
+    float: right;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+ul.mainMenuItem li {
+    list-style: none;
+    float: left;
+}
+
+ul.mainMenuItem li a {
+    text-decoration: none;
+    font-family: oswald;
+    font-size: 15px;
+    display: block;
+    padding: 30px 30px;
+    color: #0e0e0e;
+    transition: 0.5s;
+}
+
+ul.mainMenuItem li a:hover {
+    color: #ff5200
+}
+
+ul.mainMenuItem li#search {
+    margin-top: 5px;
+}
+
+#homeSlider {
+    background: url(..//img/slide.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding: 0px;
+}
+
+.sliderContent {
+    color: white;
+    width: 600px;
+}
+
+.sliderContent h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 90px;
+}
+
+.sliderContent p {
+    font-weight: 700px;
+    line-height: 25px;
+    width: 480px;
+    margin-bottom: 50px;
+}
+
+button#sliderWorkButton {
+    background: #ff5200;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 05px 3px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-bottom: 150px;
+    transition: 0.25s;
+}
+
+button#sliderWorkButton:hover {
+    background: #121212;
+}
+
+.sliderNav {
+    width: 60px;
+    margin: auto;
+    padding-bottom: 40px 0px;
+}
+
+.sliderNav span {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 4px solid #ddd;
+    border-radius: 100%;
+    display: block;
+    cursor: pointer;
+    float: left;
+    margin: 5px 5px;
+    margin-top: 10px;
+}
+
+.sliderNav span:first-child {
+    background: #ff5200;
+    border: 4px solid #ff5200;
+}
+
+#services {
+    background: #f5f6f6;
+}
+
+.sboxWrapper {
+    overflow: hidden;
+}
+
+.sboxIcon {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    margin: 30px 0px;
+}
+
+.singleBox {
+    width: 225px;
+    background: rgb(245, 244, 244);
+    padding: 15px;
+    float: left;
+    margin-right: 30px;
+    transition: 1.5s;
+}
+
+.sboxTitle {
+    text-align: center;
+    width: 150px;
+    margin: auto;
+}
+
+.sboxTitle h2 {
+    font-size: 20px;
+    line-height: -1.1px;
+    color: #333;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 30px 0px;
+}
+
+.sboxDesc {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.sboxLink {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.sboxLink a {
+    text-decoration: none;
+    color: #fb5200;
+    font-weight: 500;
+}
+
+.singleBox:hover {
+    background: #fb5200;
+    color: white !important;
+    cursor: pointer;
+}
+
+.singleBox:hover i.fa-long-arrow-alt-right {
+    color: white !important;
+}
+
+.singleBox i {
+    color: #fb5200;
+}
+
+.singleBox:hover h2,i {
+    color: white ;
+}
+
+.singleBox:hover .sboxIcon i {
+    color: white;
+}
+
+.singleBox:hover .sboxLink a {
+    color: white !important;
+}
+
+.sboxactive {
+    background: #ff5200;
+    color: white;
+}
+
+.singleBox i.fa-long-arrow-alt-right {
+    color: #ff5200;
+}
+
+.sboxactive h2 {
+    color: white;
+}
+
+.sboxactive a {
+    color: white;
+}
+
+.sboxactive i {
+    color: white;
+}
+
+.sboxactive i.fa-long-arrow-alt-right {
+    color: white;
+}
+
+.teamContents {
+    overflow: hidden;
+}
+
+.teamImage {
+    width: 535px;
+    float: left;
+}
+
+.teamImage img {
+    max-width: 100%;
+}
+
+.teamDetails {
+    width: 535px;
+    float: right;
+}
+
+.titleDesc h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.titleDesc p {
+    color: #666;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.teamFacilities ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.teamFacilities ul li {
+    width: 260px;
+    float: left;
+    line-height: 40px;
+    transition: 0.5s;
+}
+
+.teamFacilities ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.teamFacilities {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.teamFacilities ul li a i {
+    font-size: 10px;
+    color: #ddd;
+}
+
+.teamContactBtn a {
+    background: #ff5200;
+    color: white;
+    padding: 15px 10px;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    width: 140px;
+    text-align: center;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.teamFacilities ul li:hover a {
+    color: #fb5200;
+}
+
+.teamFacilities ul li:hover i {
+    color: #ff5200;
+}
+
+.teamContactBtn a:hover {
+    color: white;
+    background: #333;
+}
+
+#whyChoseus {
+    background: linear-gradient(#00000073, #00000073), url(..//img/why-chose-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.IconWrapper {
+    overflow: hidden;
+}
+
+.singleIcon {
+    width: 210px;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-right: 100px;
+}
+
+.singleIcon:last-child {
+    margin-right: 0;
+}
+
+.sIcon {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.singleIcon h2 {
+    font-size: 55px;
+    font-weight: 900;
+    margin: 15px 0;
+    font-family: arial,black;
+    padding-bottom: 15px;
+}
+
+.singleIcon h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+section#blogPosts {
+    background: #f5f6f6;
+}
+
+.postWrapper {
+    overflow: hidden;
+}
+
+.secTitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.secTitle h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.secTitle h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background: #fb5200;
+    width: 70px;
+    border-bottom: 4px solid #fb5200;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.secTitle p {
+    width: 615px;
+    margin: auto;
+    line-height: 25px;
+    font-size: 20px;
+    color: #777;
+}
+
+.singlePost {
+    width: 258px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+
+.singlePost:last-child {
+    margin-right: 0px;
+}
+
+.singlePost img {
+    width: 100%;
+}
+
+.postImg {
+    margin-bottom: 20px;
+}
+
+.postInfo p {
+    margin-top: 10px;
+    color: #666;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+
+.singleTable {
+    width: 295px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+    padding: 30px ;
+    border: 1px solid #eaeaea;
+}
+
+.singleTable:first-child {
+    box-shadow: -20px 0px 8px #f6f6f6;
+}
+
+.singleTable:last-child {
+    margin-right: 0;
+    box-shadow: 20px 0px 8px #f6f6f6;
+}
+
+.singleTable h3 {
+    font-size: 25px;
+}
+
+.singleTable h1 {
+    font-size: 45px;
+    font-weight: 900;
+    font-family: arial black;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.singleTable h1 span {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700 !important ;
+    font-family: arial;
+}
+
+.singleTable ul {
+    list-style: none;
+}
+
+.singleTable ul li {
+    line-height: 40px;
+    color: #777;
+}
+
+.singleTable ul li i {
+    font-size: 12px;
+    color: #fb5200;
+}
+
+.tableGetStarted a {
+    background: #ff5200;
+    color: white;
+    padding: 10px 5px;
+    text-decoration: none;
+    border: none;
+    letter-spacing: -0.5px ;
+    font-size: 20px;
+    display: block;
+    width: 130px;
+    text-align: center;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin: 20px 0;
+}
+
+.tableGetStarted a:hover {
+    color: white;
+    background: #333;
+}
+
+.tableList {
+    display: table;
+    background: #fafafa;
+}
+
+section#ideas {
+    overflow: hidden;
+    position: relative;
+    padding: 0px;
+}
+
+.idealeftImg {
+    background: url(..//img/s02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50%;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.rightContent {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    background: #222222;
+    color: white;
+}
+
+.rContentTitle {
+    padding: 70px;
+}
+
+.rContentTitle h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.rContentIcons {
+    padding: 0px 70px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.riconSingle {
+    width: 400px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.rIcon {
+    width: 70px;
+    overflow: hidden;
+    float: left;
+    font-size: 30px;
+}
+
+.rIcon i {
+    color: #ff5200;
+}
+
+.rIconTitle {
+    width: 300px;
+    overflow: hidden;
+    float: right;
+}
+
+.rIconTitle h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.rIconTitle p {
+    font-size: ;
+}
+
+.rIconTitle h2:hover {
+    color: #fb5200;
+    cursor: pointer;
+}
+
+.teamPersons{
+    overflow: hidden;
+}
+
+.singlePerson{
+    overflow: hidden;
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+}
+
+.singlePerson:last-child{
+    margin-right: 0px;
+}
+
+.singlePerson img{
+    width:100% ;
+    height: 350px;
+    transition: 0.3s;
+}
+
+.personInfo{
+    padding: 22px 15px;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.personInfo h3{
+    font-size: 18px;
+}
+
+.personInfo p{
+    font-size: 14px;
+    margin-top: 8px;
+    color: #777;
+}
+
+.joinTeamButton{
+    margin-top:70px ;
+    display: grid;
+    place-items: center;
+}
+
+.joinTeamButton button{
+    background: #333;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-family: oswald;
+    letter-spacing: 1;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.joinTeamButton button:hover{
+    color: white;
+    background: #ff5200;
+}
+
+.personImg{
+    overflow: hidden;
+    position: relative;
+}
+.socialIcon{
+    width: 140px;
+     position: absolute;
+     bottom: 60px;
+     text-align: center;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+.socialIcon a {
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    background: red;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.socialIcon a:first-child{
+    background: #3b5998;
+    opacity: 0;
+    transition: 0.90s;
+}
+
+.socialIcon a:nth-child(2){
+    background: #00acee;
+    opacity: 0;
+    transition: 0.70s;
+}
+
+.socialIcon a:nth-child(3){
+    background: #db4a39;
+    opacity: 0;
+    transition: 0.50s;
+}
+
+.socialIcon a:last-child{
+    background:#0e76a8 ;
+    opacity: 0;
+    transition: 0.30s;
+}
+
+.socialIcon a:hover{
+    background:rgb(0, 0, 0);
+    color: #fff;
+}
+
+.singlePerson:hover .socialIcon a:first-child{
+    transform: translateY(20px);
+    opacity: 1;
+}
+
+.singlePerson:hover .socialIcon a:nth-child(2){
+    transform: translateY(20px);
+    opacity: 1;
+}
+
+.singlePerson:hover .socialIcon a:nth-child(3){
+    transform: translateY(20px);
+    opacity: 1;
+}
+
+.singlePerson:hover .socialIcon a:last-child{
+    transform: translateY(20px);
+    opacity: 1;
+}
+
+.singlePerson:hover .personImg img{
+    transform: scale(1.1);
+}
+
+.singlePerson:hover{
+    cursor: pointer;
+}
+
+#project{
+    background: #f5f6f6;
+}
