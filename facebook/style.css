@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: #F0F2F5;
+}
+.menu{
+    margin-top: 200px;
+}
+.container{
+    width: 980px;
+    margin: auto;
+}
+.menuWrapper{
+    overflow: hidden;
+}
+.leftContent {
+    width: 440px;
+    float: left;
+}
+.leftContent .logo1 img{
+    width: 300px;
+    float: left;
+}
+.leftContent p {
+    float: left;
+    padding: 0px 35px;
+    font-size: 25px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+.rightContent{
+    width: 500px;
+    float: right;
+    margin-left: 10px;
+}
+.loginbox{
+        width: 400px;
+        margin: auto;
+        background: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow:-7px 3px 20px 4px #ddd;
+}
+.loginbox input{
+    width: 95%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    height: 40px;
+    border: 1px solid #c5c3c3;
+    outline: none;
+    padding: 10px;
+    display: block;
+    border-radius: 7px;
+}
+.loginbox .loginbtn{
+    color: white;
+    background: #166FE5;
+    font-size: 20px;
+    padding: 0px 15px;
+    text-align: center;
+    height: 55px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.loginbox a.forgotbtn{
+    text-decoration: none;
+    color: #166FE5;
+    text-align: center;
+    margin: 0 140px;
+    font-size: 14px;
+}
+hr{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.loginbox button{
+    background: #36A420;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    line-height: 48px;  
+    width: 100%;
+}
+
+.loginbox button a{
+    text-decoration: none;
+    color: white;
+    
+}
+.loginquote span{
+    margin: 0 90px;
+}
+.loginquote {
+    margin-top: 20px;
+}
+.loginquote span a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #111;
+}
