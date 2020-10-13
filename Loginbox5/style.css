@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+        margin: 0;
+        padding: 0;
+        background: #11998e;
+        background: -webkit-linear-gradient(to right, #38ef7d, #11998e); 
+        background: linear-gradient(to right, #38ef7d, #11998e);
+    }
+    .loginbox{
+        width: 400px;
+        margin: auto;
+        margin-top:300px;
+        background: white;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    .loginbox h1{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+        color: #929292;
+        text-transform: uppercase;
+    }
+    .loginbox input{
+        width: 95%;
+        font-size: 16px;
+        margin-bottom: 20px;
+        height: 40px;
+        background: #f3f3f3;
+        border: none;
+        outline: none;
+        padding: 10px;
+        display: block;
+        border-radius: 7px;
+    }
+    .loginbox .loginbtn{
+        color: white;
+        background: #00e472;
+        font-size: 20px;
+        padding: px 15px;
+        text-align: center;
+        height: 55px;
+        cursor: pointer;
+        width: 100%;
+        font-weight: 400;
+    }
+    .registerlink{
+        text-align: center;
+    }
+    .registerlink span{
+        color: #a2a2a2;
+        align-items: center;
+    }
+    .registerlink a{
+        color: #149052;
+        text-decoration: none;
+    }
+    
+   
+}
+.loginbox{
+    width: 400px;
+    margin: auto;
+    margin-top:300px;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+.loginbox input{
+    width: 95%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    height: 40px;
+    background: #f3f3f3;
+    border: none;
+    outline: none;
+    padding: 10px;
+    display: block;
+    border-radius: 7px;
+}
+.loginbox .loginbtn{
+    color: white;
+    background: #00e472;
+    font-size: 20px;
+    padding: px 15px;
+    text-align: center;
+    height: 55px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 400;
+}
+.registerlink{
+    text-align: center;
+}
+.registerlink span{
+    color: #a2a2a2;
+    align-items: center;
+}
+.registerlink a{
+    color: #149052;
+    text-decoration: none;
+}
