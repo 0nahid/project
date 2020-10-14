@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: #844b4b14;
+}
+input#first {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    margin-top: 220px;
+}
+
+input#second {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+input#answer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+button {
+    padding: 10px 70px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    border: none;
+    background: #6666663b;
+    border-radius: 5px;
+}
+
