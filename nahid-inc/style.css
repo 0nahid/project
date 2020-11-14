@@ -44,7 +44,7 @@ a:hover{
     background: #c0392b;
 }
 #banner{
-    background: url(..//IMG/banner.jpg) no-repeat 0 0;
+    background: url(IMG/banner.jpg) no-repeat 0 0;
     background-size: cover
 }
 .banner-title{
