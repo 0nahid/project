@@ -1,0 +1,77 @@
+section{
+    margin-top: 40px;
+}
+.header-bg-img{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('..//IMG/header-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.header-text {
+	padding-top: 180px;
+	box-sizing: border-box;
+}
+
+.header-text  h2 {
+	font-size: 42px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.header-text  h1 {
+	font-size: 72px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.btn-sub{
+    margin-bottom: 180px;
+}
+.service-header{
+    margin-bottom: 30px;
+}
+.service-icons{
+    border-radius: 50%;
+	height: 100px;
+    width: 100px;
+}
+.service-icons i{
+    font-size: 55px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+.service-box{
+    text-align: center;
+}
+#portfolio{
+    background: #F8F9FA;
+}
+#footer{
+    background: #343A40;
+    color: white;
+    padding: 10px 0;
+}
+#social-icons{
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#social-icons li{
+    display: inline-block;
+    padding-left: 10px;
+}
+#social-icons li a{
+    color: #fff;
+    font-size: 23px;
+}
+@media (max-width:768px){
+    #footer{
+        text-align: center;
+    }
+    #social-icons{
+        margin-top: 10px;
+    }
+    .rowsetting{
+        text-align: center;
+    }
+}
