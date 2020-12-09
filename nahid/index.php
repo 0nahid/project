@@ -2,10 +2,10 @@
     
     <div class="container mt-5">
         <div class="row">
-            <div class="col-xl-4 col-md-4 col-sm-5 col-xs-12">
-                <img src="./img/nahid.png" class="nahid_png"  alt="">
+            <div class="col-xl-4 col-md-4  col-xs-12 nahid_png">
+               <img src="./img/nahid.png"  alt="">
             </div>
-            <div class="col-xl-8  col-md-8 col-sm-7 col-xs-12">
+            <div class="col-xl-8  col-md-8  col-xs-12">
                <blockquote class="blockquote mt-5">
                    <p class="mb-1"><h3>Hey How are you? Hope you're Well. Nice to meet you. Have a great Day!</h3></p>
                    <footer class="blockquote-footer"> <cite title="Source Title">Nahid Hassan</cite></footer>
@@ -72,7 +72,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="section-head text-white">Testimonials</h2>
+                <h2 class="section-head text-white">Portfolio</h2>
             </div>
             <div class="col-md-4">
                 <div class="card">
