@@ -5,7 +5,7 @@ body {
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #a1b2b8;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
 
@@ -17,35 +17,40 @@ footer {
 }
 
 .w {
-  background-image: url("images/tom1.png");
+  background-image: url("./images/tom1.png");
 }
 
 .a {
-  background-image: url("images/tom2.png");
+  background-image: url("./images/tom2.png");
 }
 
 .s {
-  background-image: url("images/tom3.png");
+  background-image: url("./images/tom3.png");
 }
 
 .d {
-  background-image: url("images/tom4.png");
+  background-image: url("./images/tom4.png");
 }
 
 .j {
-  background-image: url("images/snare.png");
+  background-image: url("./images/snare.png");
 }
 
 .k {
-  background-image: url("images/crash.png");
+  background-image: url("./images/crash.png");
 }
 
 .l {
-  background-image: url("images/kick.png");
+  background-image: url("./images/kick.png");
 }
 
 .set {
   margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
 }
 
 .pressed {
